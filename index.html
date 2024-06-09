@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Tech Device</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+            border-bottom: #77aaff 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            display: inline;
+            padding: 0 20px;
+        }
+        .banner {
+            background: #77aaff;
+            color: #fff;
+            padding: 100px 0;
+            text-align: center;
+        }
+        .banner h1 {
+            margin: 0;
+            font-size: 48px;
+        }
+        section {
+            padding: 20px;
+            margin: 20px 0;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+        .product-images img {
+            width: 100%;
+            max-width: 300px;
+            display: block;
+            margin: auto;
+        }
+        .buy-button {
+            display: block;
+            width: 200px;
+            margin: 20px auto;
+            padding: 10px 0;
+            background: #77aaff;
+            color: #fff;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+        .buy-button:hover {
+            background: #5599dd;
+        }
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            max-width: 400px;
+            margin: auto;
+        }
+        .contact-form input, .contact-form textarea {
+            margin: 5px 0;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            padding: 10px;
+            background: #77aaff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        .contact-form button:hover {
+            background: #5599dd;
+        }
+        .specifications ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .specifications ul li {
+            margin: 5px 0;
+            padding: 5px;
+            background: #eaeaea;
+            border-radius: 5px;
+        }
+        .examples ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .examples ul li {
+            margin: 10px 0;
+            padding: 10px;
+            background: #ffdddd;
+            border-radius: 5px;
+            border-left: 5px solid #ff5555;
+        }
+        .video-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .video-container video {
+            width: 100%;
+            max-width: 600px;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1><a href="#">Simple Tech Device</a></h1>
+            <nav>
+                <ul>
+                    <li><a href="#product">Product</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#market">Market</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                    <li><a href="#examples">Examples</a></li>
+                    <li><a href="#reviews">Reviews</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="banner">
+        <div class="container">
+            <h1>User-Friendly Technology for the Elderly</h1>
+        </div>
+    </section>
+
+    <div class="container">
+        <section id="product">
+            <h2>Product</h2>
+            <div class="product-images">
+                <img src="A_user-friendly_device_designed_for_elderly_people.png" alt="Product Image">
+            </div>
+            <p><strong>Affordable Price:</strong> Approximately 300 RMB, easy for elderly to afford.</p>
+            <p><strong>Easy to Use:</strong> Large buttons and simple interface, suitable for those with poor eyesight and hearing.</p>
+            <p><strong>Physical Button Control:</strong> No touch screen, operated through physical buttons with clear icons for functions like payment, camera, etc.</p>
+            <p><strong>High Volume and Large Font:</strong> Loud sound and large font, making it easier for elderly to use.</p>
+            <p><strong>Heart Rate Monitoring:</strong> Built-in heart rate monitor, alerts the system and contacts company or hospital if abnormalities are detected.</p>
+            <p><strong>Additional Features:</strong></p>
+            <ul>
+                <li>GPS Tracking: Helps in locating elderly users if needed.</li>
+                <li>Fall Detection: Automatically detects falls and sends alerts to designated contacts.</li>
+                <li>Medication Reminders: Sends reminders to take medication on time.</li>
+            </ul>
+            <div class="specifications">
+                <h3>Specifications:</h3>
+                <ul>
+                    <li>Screen Size: 4.5 inches</li>
+                    <li>Battery Life: 7 days (standby), 3 days (normal use)</li>
+                    <li>Storage: 16GB</li>
+                    <li>Language Support: Chinese, English</li>
+                    <li>Weight: 150 grams</li>
+                    <li>Dimensions: 140mm x 70mm x 10mm</li>
+                    <li>Connectivity: WiFi, Bluetooth</li>
+                    <li>Security Features: Fingerprint recognition, emergency call button</li>
+                </ul>
+            </div>
+            <a href="#" class="buy-button">Buy Now</a>
+            <div class="video-container">
+                <h3>Product Introduction Video</h3>
+                <video controls>
+                    <source src="your-video-file.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </section>
+
+        <section id="services">
+            <h2>Services</h2>
+            <p><strong>Payment Confirmation:</strong> Contacts family for confirmation when payment button is pressed to ensure safety. If no family contact is available, company representative will confirm.</p>
+            <p><strong>Emergency Call:</strong> Automatically calls company or hospital if abnormal heart rate is detected.</p>
+            <p><strong>Free Trial Activities:</strong> Free trial lottery in elderly communities, winners get a one-month free trial.</p>
+            <p><strong>Referral Cashback:</strong> 10% cashback for referring others to purchase the product. The more referrals, the more cashback.</p>
+        </section>
+
+        <section id="market">
+            <h2>Market</h2>
+            <p><strong>Customer Segments:</strong> Elderly not familiar with electronic devices, elderly with specific health conditions.</p>
+            <p><strong>Channels:</strong> Promotion through social media, hospitals, elderly communities, and ads in healthcare product publications.</p>
+        </section>
+
+        <section id="faq">
+            <h2>FAQ</h2>
+            <p><strong>Q:</strong> How long does the battery last?<br><strong>A:</strong> Our device's battery lasts 7 days on standby and 3 days with normal use, depending on usage conditions.</p>
+            <p><strong>Q:</strong> What languages does the product support?<br><strong>A:</strong> The product currently supports Chinese and English.</p>
+            <p><strong>Q:</strong> How do I get technical support if there's an issue?<br><strong>A:</strong> You can contact our technical support team through our website or by calling our customer service hotline. We offer 24/7 online support.</p>
+            <p><strong>Q:</strong> Is the product waterproof?<br><strong>A:</strong> The product has basic waterproofing, capable of handling minor splashes, but it's not recommended for prolonged exposure to water.</p>
+        </section>
+
+        <section id="examples">
+            <h2>Examples of Negative Outcomes from Not Using a Phone</h2>
+            <ul>
+                <li><strong>Health Emergencies:</strong> An elderly person might experience a health emergency, such as a heart attack or a fall, and be unable to contact anyone for help in time.</li>
+                <li><strong>Medication Misses:</strong> Forgetting to take important medications due to lack of reminders, which can lead to severe health consequences.</li>
+                <li><strong>Getting Lost:</strong> An elderly individual may get lost and be unable to call for directions or help, leading to prolonged periods of anxiety and danger.</li>
+                <li><strong>Financial Scams:</strong> Being unable to verify information or contact trusted family members might increase the risk of falling victim to financial scams.</li>
+            </ul>
+        </section>
+
+        <section id="reviews">
+            <h2>Reviews</h2>
+            <p><strong>Ms. Wang:</strong> “This device is very easy to use, with loud sound and large fonts. My mother loves it.”</p>
+            <p><strong>Mr. Li:</strong> “Affordable price and simple operation. My father finds it very convenient.”</p>
+            <p><strong>Mr. Zhang:</strong> “The heart rate monitoring feature gives me peace of mind. I recommend it to all elderly people.”</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Phone: 016-7339323</p>
+            <p>Email: a199744@siswa.ukm.edu.my</p>
+            <p>Customer Support: 24/7 online support, ready to assist you anytime.</p>
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <p>Simple Tech Device &copy; 2024</p>
+        <p><a href="privacy-policy.html">Privacy Policy</a> | <a href="terms-of-service.html">Terms of Service</a></p>
+        <p>Follow us: <a href="https://facebook.com">Facebook</a> | <a href="https://twitter.com">Twitter</a> | <a href="https://weibo.com">Weibo</a></p>
+    </footer>
+
+    <audio autoplay loop>
+        <source src="your-music-file.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+</body>
+</html>
